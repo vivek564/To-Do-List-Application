@@ -15,14 +15,21 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
 
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { HomeComponent } from './home/home.component';
+import { UserComponent } from './user/user.component';
+
 
 
 
 @NgModule({
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   declarations: [
     AppComponent,
     NanbarComponent,
-    AdminpageComponent
+    AdminpageComponent,
+    HomeComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
@@ -33,3 +40,4 @@ import {MatCardModule} from '@angular/material/card';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+export class CustomModule { }
