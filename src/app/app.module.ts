@@ -19,6 +19,7 @@ import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { HomeComponent } from './home/home.component';
 import { UserComponent } from './user/user.component';
 import { FeedbackComponent } from './feedback/feedback.component';
+import { AboutComponent } from './about/about.component';
 
 
 
@@ -31,7 +32,8 @@ import { FeedbackComponent } from './feedback/feedback.component';
     AdminpageComponent,
     HomeComponent,
     UserComponent,
-    FeedbackComponent
+    FeedbackComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
