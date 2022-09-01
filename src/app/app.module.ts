@@ -18,6 +18,7 @@ import {MatCardModule} from '@angular/material/card';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { HomeComponent } from './home/home.component';
 import { UserComponent } from './user/user.component';
+import { FeedbackComponent } from './feedback/feedback.component';
 
 
 
@@ -29,7 +30,8 @@ import { UserComponent } from './user/user.component';
     NanbarComponent,
     AdminpageComponent,
     HomeComponent,
-    UserComponent
+    UserComponent,
+    FeedbackComponent
   ],
   imports: [
     BrowserModule,
