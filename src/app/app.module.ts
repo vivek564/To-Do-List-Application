@@ -20,6 +20,7 @@ import { HomeComponent } from './home/home.component';
 import { UserComponent } from './user/user.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { AboutComponent } from './about/about.component';
+import { SingupComponent } from './singup/singup.component';
 
 
 
@@ -33,7 +34,9 @@ import { AboutComponent } from './about/about.component';
     HomeComponent,
     UserComponent,
     FeedbackComponent,
-    AboutComponent
+    AboutComponent,
+    SingupComponent
+    
   ],
   imports: [
     BrowserModule,

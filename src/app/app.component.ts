@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+// declare const myfun:any;
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'navbar';
+  // callfun() {
+  //   myfun();
+  // }
 }
