@@ -1,0 +1,87 @@
+<div class="d-flex flex-column  py-3 bg-light m-0" style="width: 200px; ">
+    <a [routerLink]="['user']" routerLinkActive="router-link-active" class="d-flex align-items-center  link-dark text-decoration-none">
+        <div class="mx-auto">
+            <img class="rounded-circle mx-auto" alt="100x100" src="../../../assets/images/adminicon.jpg" style="height: 150px;width:150px">
+            <h2 class="mt-2 mb-0 text-center mx-auto">User Name</h2>
+            <!-- <h5 class=" text-center mx-auto">(Designation)</h5> -->
+        </div>
+    </a>
+    <hr class="">
+    <ul class="nav nav-pills flex-column mb-auto">
+        <li class="nav-item">
+            <a [routerLink]="['user']" routerLinkActive="router-link-active" class="nav-link active" aria-current="page">
+                <svg class="bi me-2" width="16" height="16">
+                    <use xlink:href="#home" />
+                </svg>
+                Dashboard
+            </a>
+        </li>
+        <li>
+            <a [routerLink]="['create-task']" routerLinkActive="router-link-active" class="nav-link link-dark">
+                <svg class="bi me-2" width="16" height="16">
+                    <use xlink:href="#speedometer2" />
+                </svg>
+                create task
+            </a>
+        </li>
+        <li>
+            <a [routerLink]="['edit-task']" routerLinkActive="router-link-active" class="nav-link link-dark">
+                <svg class="bi me-2" width="16" height="16">
+                    <use xlink:href="#table" />
+                </svg>
+                edit task
+            </a>
+        </li>
+
+        <li>
+            <a [routerLink]="['priority-level']" routerLinkActive="router-link-active" class="nav-link link-dark">
+                <svg class="bi me-2" width="16" height="16">
+                    <use xlink:href="#people-circle" />
+                </svg>
+                priority level
+            </a>
+        </li>
+        <li>
+            <a [routerLink]="['task-deadline-setting']" routerLinkActive="router-link-active" class="nav-link link-dark">
+                <svg class="bi me-2" width="16" height="16">
+                    <use xlink:href="#people-circle" />
+                </svg>
+                task deadline Setting
+            </a>
+        </li>
+        <li>
+            <a [routerLink]="['task-details-check']" routerLinkActive="router-link-active" class="nav-link link-dark">
+                <svg class="bi me-2" width="16" height="16">
+                    <use xlink:href="#people-circle" />
+                </svg>
+                task details Check
+            </a>
+        </li>
+        <li>
+            <a [routerLink]="['task-cancellation']" routerLinkActive="router-link-active" class="nav-link link-dark">
+                <svg class="bi me-2" width="16" height="16">
+                    <use xlink:href="#people-circle" />
+                </svg>
+                task cancellation
+            </a>
+        </li>
+        <li>
+            <a [routerLink]="['feedback1']" routerLinkActive="router-link-active" class="nav-link link-dark">
+                <svg class="bi me-2" width="16" height="16">
+                    <use xlink:href="#people-circle" />
+                </svg>
+                feedback 
+            </a>
+        </li>
+        <hr>
+        <li>
+            <a [routerLink]="['login']" routerLinkActive="router-link-active" class="nav-link link-dark">
+                <svg class="bi me-2" width="16" height="16">
+                    <use xlink:href="#people-circle" />
+                </svg>
+                Logout
+            </a>
+        </li>
+    </ul>
+
+</div>

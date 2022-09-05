@@ -21,6 +21,20 @@ import { UserComponent } from './user/user.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { AboutComponent } from './about/about.component';
 import { SingupComponent } from './singup/singup.component';
+import { PriorityLevelComponent } from './priority-level/priority-level.component';
+import { AddTaskComponent } from './add-task/add-task.component';
+import { EditTaskComponent } from './edit-task/edit-task.component';
+import { TaskDetailsCheckComponent } from './task-details-check/task-details-check.component';
+import { TaskDeadlineSettingComponent } from './task-deadline-setting/task-deadline-setting.component';
+import { TaskCancellationComponent } from './task-cancellation/task-cancellation.component';
+import { ViewUserDataComponent } from './view-user-data/view-user-data.component';
+import { NavComponent } from './user/nav/nav.component';
+import { UsersidebarComponent } from './user/usersidebar/usersidebar.component';
+import { AdminsidebarComponent } from './adminpage/adminsidebar/adminsidebar.component';
+import { AdministersbookedComponent } from './adminpage/administersbooked/administersbooked.component';
+import { ViewuserdataComponent } from './adminpage/viewuserdata/viewuserdata.component';
+import { CancellationComponent } from './adminpage/cancellation/cancellation.component';
+import { FeedbackviewandreplyComponent } from './adminpage/feedbackviewandreply/feedbackviewandreply.component';
 
 
 
@@ -35,7 +49,21 @@ import { SingupComponent } from './singup/singup.component';
     UserComponent,
     FeedbackComponent,
     AboutComponent,
-    SingupComponent
+    SingupComponent,
+    PriorityLevelComponent,
+    AddTaskComponent,
+    EditTaskComponent,
+    TaskDetailsCheckComponent,
+    TaskDeadlineSettingComponent,
+    TaskCancellationComponent,
+    ViewUserDataComponent,
+    NavComponent,
+    UsersidebarComponent,
+    AdminsidebarComponent,
+    AdministersbookedComponent,
+    ViewuserdataComponent,
+    CancellationComponent,
+    FeedbackviewandreplyComponent
     
   ],
   imports: [
