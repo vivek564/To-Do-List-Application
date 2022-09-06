@@ -1,17 +1,17 @@
-<div fxLayoutAlign="center center" fxFlexFill class="main-div">
+ <div fxLayoutAlign="center center" fxFlexFill class="main-div"> 
 
    
    
     
     <mat-card fxFlex="25"> 
         <mat-toolbar color="primary">Admin Login page</mat-toolbar>
-        <form fxLayoutAlign="stretch" fxLayout="column" class="login-form">
+        <form fxLayoutAlign="stretch" fxLayout="column" class="login-form" (ngSubmit)="adminLogin()">
             <mat-form-field>
-              <input matInput placeholder="username">
+              <input matInput [(ngModel)]="admin.userId" [ngModelOptions]="{standalone: true}" placeholder="userId">
             </mat-form-field>
           
            <mat-form-field>
-                <input matInput type="password" placeholder="password">
+                <input matInput type="password" [(ngModel)]="admin.password" [ngModelOptions]="{standalone: true}" placeholder="password">
               </mat-form-field>
               <button mat-raised-button type="submit">Login</button>
             
@@ -19,4 +19,35 @@
           
     </mat-card> 
 </div>
+ 
+  
+ <!-- <div class="container">
+  <div class="forms">
+      <div class="form login">
+          <span class="title">Admin Login</span>
 
+          <form action="#" (ngSubmit)="adminLogin">
+              <div class="input-field">
+                  <input type="text" [(ngModel)]="admin.UserId" placeholder="UserId" required>
+                  <i class="uil uil-envelope icon"></i>
+              </div>
+              <div class="input-field">
+                  <input type="password" [(ngModel)]="admin.password"  class="password" placeholder="Enter your password" required>
+                  <i class="uil uil-lock icon"></i>
+                  <i class="uil uil-eye-slash showHidePw"></i>
+                  
+              </div>
+
+              <div class="checkbox-text">
+                  <div class="checkbox-content">
+                      <input type="checkbox" id="logCheck">
+                      <label for="logCheck" class="text">Remember me</label>
+                   </div>
+                  
+                  <a href="#" class="text">Forgot password?</a> -->
+              <!-- </div> 
+
+              <div class="input-field button">
+                  <input type="button" value="Login">
+              </div>
+          </form> -->

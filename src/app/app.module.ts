@@ -35,6 +35,9 @@ import { AdministersbookedComponent } from './adminpage/administersbooked/admini
 import { ViewuserdataComponent } from './adminpage/viewuserdata/viewuserdata.component';
 import { CancellationComponent } from './adminpage/cancellation/cancellation.component';
 import { FeedbackviewandreplyComponent } from './adminpage/feedbackviewandreply/feedbackviewandreply.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 
@@ -68,7 +71,7 @@ import { FeedbackviewandreplyComponent } from './adminpage/feedbackviewandreply/
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    AppRoutingModule,FormsModule,HttpClientModule,
     BrowserAnimationsModule,MatToolbarModule,MatButtonModule,MatIconModule,MatFormFieldModule,MatCardModule,MatInputModule,FlexLayoutModule 
   ],
   providers: [],
